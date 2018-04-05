@@ -6,6 +6,7 @@ body {
     font-size: 0;
 }
 
+.col,
 .col-2,
 .col-3,
 .col-4,
@@ -120,6 +121,10 @@ ul {
     margin-right: 11%;
 }
 
+ul {
+    margin-top: 0;
+}
+
 .col-3 .title:first-child {
     margin-top: 25px;
 }
@@ -178,4 +183,8 @@ ul {
     background-repeat:no-repeat;
     width: 10px;
     height: 10px;
+}
+
+.flex {
+    display: none;
 }
